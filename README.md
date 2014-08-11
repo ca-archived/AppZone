@@ -133,7 +133,7 @@ snakeyaml | 1.7
 xpp3 | 1.1.4c
 
 ## License
-    Copyright 2013 CyberAgent
+    Copyright © CyberAgent, Inc. All Rights Reserved.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
