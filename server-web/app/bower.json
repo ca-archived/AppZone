@@ -1,0 +1,22 @@
+{
+  "name": "appzone",
+  "version": "0.1.0",
+  "description": "AppZone Client App",
+  "license": "MIT",
+  "private": true,
+  "appPath": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "~0.9.18-alpha",
+    "lodash": "~2.4.1",
+    "angular-http-auth": "~1.2.1",
+    "angular-translate": "~1.1.1"
+  }
+}

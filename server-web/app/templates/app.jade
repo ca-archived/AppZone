@@ -1,0 +1,12 @@
+nav-page#app-page(ng-controller='AppCtrl', title='"AppZone"', left-buttons='leftButtons', right-buttons='rightButtons', hide-back-button='true')
+  content(has-header='true', has-tabs='false', overflow-scroll='true')
+
+    alert(ng-repeat='alert in alerts', type='alert.type', title='alert.title', message='alert.message')
+
+    list(show-delete='showDelete', on-delete='onItemDelete(item)')
+      item.item(ng-repeat='item in appItems | filter:filterOS', type='item-text-wrap', item='item', href='#/releases/{{item.id}}')
+        .appzone-applist-icon
+          img(ng-if='iconUrl(item)', ng-src='{{iconUrl(item)}}')
+          .appzone-initial.appzone-applist-initial(ng-if='!iconUrl(item)', ng-bind='item.name | initial')
+        span(ng-bind='item.name | capitalize')
+        span.badge.badge-assertive(ng-bind='numberOfApps(item)')

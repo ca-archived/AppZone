@@ -1,0 +1,163 @@
+html, body {
+    background: #fff;
+}
+
+#splash-page {
+    background-color: white;
+}
+
+.appzone-login-bg {
+    /*background: url('../img/gradient-wallpaper-47.jpg') #af695f no-repeat fixed;*/
+    /*background-size: 100% 100%;*/
+}
+
+.appzone-login-bg {
+    background: #f8f8f8;
+}
+
+.appzone-welcome {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.appzone-welcome-title {
+    font-size: 28px;
+    color: #92afc8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+}
+
+.appzone-welcome-logo {
+    display: inline-block;
+    background: url('../img/AppZone-Icon_200.png') transparent no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.appzone-release-item p {
+    margin: 0;
+}
+
+.unselectable {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.item-radio-content-text {
+    margin-left: 30px;
+}
+
+.appzone-item-changelog {
+    font-size: 12px;
+    white-space: pre;
+    overflow-wrap: break-word;
+}
+
+.appzone-icon-inside-text-input {
+    /*width: 40px;*/
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+}
+
+.alert .alert-link {
+    font-weight: bold;
+}
+
+.alert-success .item-divider {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-success .alert-link {
+    color: #2b542c;
+}
+
+.alert-info .item-divider {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-info .alert-link {
+    color: #245269;
+}
+
+.alert-warning .item-divider {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-warning .alert-link {
+    color: #66512c;
+}
+
+.alert-danger .item-divider {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-danger .alert-link {
+    color: #843534;
+}
+
+.appzone-initial {
+    background: #fafafa;
+    position: absolute;
+    font-family: 'HelveticaNeue-UltraLight', Helvetica, Arial, sans-serif;
+    color: #555;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #eee;
+}
+
+.appzone-release-initial {
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.appzone-applist-initial {
+    /*top: 15px;*/
+    /*left: 15px;*/
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.appzone-release-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.appzone-applist-icon {
+    margin-right: 15px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: bottom;
+}
+
+.appzone-applist-icon img {
+    width: 22px;
+    height: 22px;
+}

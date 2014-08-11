@@ -1,0 +1,26 @@
+nav-page(title='name | capitalize', hide-back-button='true', left-buttons='leftButtons')
+  content(has-header='true', padding='true', overflow-scroll='true')
+    list
+      //list(show-delete='showDelete', on-delete='onItemDelete(releaseItem)', option-buttons='itemButtons')
+      .item.item-avatar.item-button-right.appzone-release-item(ng-click='toggleChangeLog(releaseItem)', ng-repeat='releaseItem in releaseItems', option-buttons='itemButtons')
+        .appzone-release-icon
+          img(ng-if='releaseItem.hasIcon', ng-src='{{iconUrl(releaseItem)}}')
+        .appzone-initial.appzone-release-initial(ng-if='!releaseItem.hasIcon', ng-bind='releaseItem.id | initial')
+
+        h2(ng-bind='releaseItem.id | capitalize')
+        p(ng-bind='releaseItem.version')
+        p(ng-bind='releaseItem.lastUpdateDate | fromNow')
+        .appzone-item-changelog(ng-bind='releaseItem.changelog', ng-show='releaseItem.showChangeLog')
+
+        button.button.button-outline.button-positive(ng-click='downloadLink(releaseItem, $event)')
+          //i.icon(ng-class='{"ion-ios7-download": ios, "ion-android-download": android}')
+          i.icon.ion-ios7-download
+
+    .clear-fix
+
+    div(ng-show='feedbackEnabled')
+      form(role='form').form-horizontal
+        .form-group
+          textarea(rows='3', placeholder='Feedback', ng-model='feedbackText').form-control
+        .form-group
+          button(type='button', ng-click='sendFeedback()').btn.btn-default Send

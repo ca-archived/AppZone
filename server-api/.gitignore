@@ -1,0 +1,14 @@
+.DS_Store
+target/
+/.lib/
+
+.cache
+.classpath
+.project
+
+# generated props file
+src/main/resources/props
+
+#intellij
+.idea/
+.idea_modules/

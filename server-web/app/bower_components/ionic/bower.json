@@ -1,0 +1,44 @@
+{
+  "name": "ionic",
+  "version": "0.9.17",
+  "homepage": "https://github.com/driftyco/ionic",
+  "authors": [
+    "Max Lynch <max@drifty.com>",
+    "Adam Bradley <adam@drifty.com>",
+    "Ben Sperry <ben@drifty.com>"
+  ],
+  "description": "Advanced HTML5 hybrid mobile app development framework.",
+  "main": [
+    "dist/js/ionic.js",
+    "dist/js/angular/angular.js",
+    "dist/js/angular/angular-animate.js",
+    "dist/js/angular/angular-route.js",
+    "dist/js/angular/angular-touch.js",
+    "dist/js/angular/angular-sanitize.js",
+    "dist/js/ionic-angular.js",
+    "dist/css/ionic.css",
+    "dist/fonts/*"
+  ],
+  "keywords": [
+    "mobile",
+    "html5",
+    "ionic",
+    "phonegap",
+    "trigger",
+    "triggerio",
+    "angularjs",
+    "angular",
+    "ratchet",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}

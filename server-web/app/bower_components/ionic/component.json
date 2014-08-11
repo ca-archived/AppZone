@@ -1,0 +1,30 @@
+{
+    "repo": "driftyco/ionic",
+    "development": {},
+    "version": "0.9.17",
+    "styles": [
+      "dist/css/ionic.css"
+    ],
+    "paths": [
+      "scss"
+    ],
+    "scripts": [
+      "dist/js/ionic.js",
+      "dist/js/angular/angular.js",
+      "dist/js/angular/angular-animate.js",
+      "dist/js/angular/angular-route.js",
+      "dist/js/angular/angular-touch.js",
+      "dist/js/angular/angular-sanitize.js",
+      "dist/js/ionic-angular.js"
+    ],
+    "fonts": [
+      "dist/fonts/ionicons.eot",
+      "dist/fonts/ionicons.svg",
+      "dist/fonts/ionicons.ttf",
+      "dist/fonts/ionicons.woff"
+    ],
+    "name": "Ionic",
+    "keywords": ["ionic","mobile","html5","hybrid","angularjs"],
+    "license": "MIT",
+    "description": "An advanced HTML5 mobile development framework"
+}
